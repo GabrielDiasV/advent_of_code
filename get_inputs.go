@@ -105,7 +105,7 @@ func main() {
 		}
 	}
 
-	if option == 0 {
+	if option == 2 {
 		fmt.Print("Insert the day: ")
 		fmt.Scanln(&day)
 		fmt.Println("Processing input from day ", day)
