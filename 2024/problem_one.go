@@ -5,10 +5,9 @@ import (
 )
 
 const day = 1
-const year = 2024
 
 func generateInput() string {
-	problemInput := utils.LoadFile(day, year)
+	problemInput := utils.LoadFile(day)
 	return problemInput
 }
 

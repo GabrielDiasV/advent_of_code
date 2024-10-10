@@ -98,7 +98,7 @@ func main() {
 	fmt.Scanln(&option)
 
 	if option == 1 {
-		for day := 0; day <= 25; day++ {
+		for day := 1; day <= 25; day++ {
 			fmt.Println("Processing input from day ", day)
 			inputString = makeRequest(day, year)
 			saveFile(day, year, inputString)
